@@ -1,0 +1,500 @@
+@import url("../css/fonts.css");
+
+:root {
+  /* theme font-family */
+  --Abel: "Abel", cursive;
+  --Anton: "Anton", cursive;
+  --Josefin: "Josefin", cursive;
+  --Lexend: "Lexend", cursive;
+  --Livvic: "Livvic", cursive;
+  --poppins: "Poppins", sans-serif;
+  --BebasNeue: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-family: var(--Lexend);
+  font-size: 25px;
+}
+
+/* ------ navbar ------- */
+
+.branding .menu .judul {
+  font-family: var(--Anton);
+  font-style: italic;
+  font-weight: 900;
+  background: #ff4e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f9d423,
+    #ff4e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f9d423,
+    #ff4e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.branding .menu .sub-judul {
+  font-family: var(--Livvic);
+  font-weight: 700;
+  font-size: 15px;
+  color: #e9e9e9;
+}
+
+.navbar-nav ul li a {
+  font-family: var(--poppins);
+}
+
+.navbar-default .navbar-nav .dropdown {
+  position: relative;
+}
+
+.navbar-default .navbar-nav .dropdown .panel {
+  position: absolute;
+  left: -80px;
+}
+
+.navbar-default .navbar-nav .dropdown .panel .panel-heading {
+  background-color: rgb(57, 166, 255);
+  color: white;
+  font-family: var(--poppins);
+}
+
+.navbar-default .navbar-nav .dropdown .panel .panel-heading > .nama {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-nav .dropdown .panel .panel-heading > .kampus {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-nav .dropdown .panel .panel-heading > .daftar {
+  /* font-weight: 100; */
+  font-size: 11px;
+}
+
+.navbar-default .navbar-nav > li > a.user:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: unset;
+  color: white;
+  margin-bottom: -1px;
+}
+
+.navbar-default .navbar-nav > .open > a.user,
+.navbar-default .navbar-nav > .open > a.user:hover,
+.navbar-default .navbar-nav > .open > a.user:focus {
+  background-color: unset;
+  color: white;
+  margin-bottom: -1px;
+}
+
+.navbar-nav .dropdown .user > span {
+  font-size: 24px;
+  /* margin-top: -50px !important; */
+}
+
+.panel .panel-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ---- end navbar ------- */
+
+/* ------- main ---------- */
+
+/* ----- section jumbotron ------- */
+
+section.welcome-part-one {
+  background-image: url("../image/image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+section.welcome-part-one::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  );
+  position: absolute;
+  bottom: 0;
+}
+
+.welcome-demop102 {
+  z-index: 1;
+  position: relative;
+}
+
+.welcome-demop102 h2 {
+  font-family: var(--Livvic);
+  padding-top: 40px;
+  font-size: 40px;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.59);
+  color: #eaeaea;
+  font-weight: Bold;
+}
+
+.welcome-demop102 p {
+  font-size: 17px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.59);
+  font-family: var(--poppins);
+  color: #eaeaea;
+  font-weight: 200;
+}
+
+/* ----- end section jumbotron ------- */
+
+/* -----  section panel ------- */
+.main-content920 #main #content1 .panel {
+  box-shadow: 0px 0px 13px -3px #777;
+}
+
+.main-content920 #main #content1 .panel .panel-heading {
+  font-family: var(--Livvic);
+  font-weight: bold;
+  font-size: 15px;
+  /* color: white; */
+}
+
+.main-content920 #main #content1 .panel .panel-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content920
+  #main
+  #content1
+  .panel
+  .panel-body
+  .question-type2033
+  .right-description893
+  #que-hedder2983
+  h3 {
+  /* font-size: 15px; */
+  font-family: var(--Livvic);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 3px !important;
+}
+
+.main-content920
+  #main
+  #content1
+  .panel
+  .panel-body
+  .question-type2033
+  .right-description893
+  #que-hedder2983
+  p {
+  font-size: 12px;
+  font-family: var(--poppins);
+  color: #aaa;
+}
+
+.main-content920
+  #main
+  #content1
+  .panel
+  .panel-body
+  .question-type2033
+  .right-description893
+  .ques-details10018
+  p {
+  font-family: var(--poppins);
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(116, 116, 116);
+}
+
+.ques-icon-info3293 .fas {
+  color: rgb(116, 116, 116);
+}
+
+.ques-icon-info3293 .fas:hover {
+  color: #ff7361;
+}
+
+.main-content920 #main #content1 .panel .panel-footer a {
+  text-decoration: none;
+  font-family: var(--poppins);
+  font-weight: bold;
+  color: rgb(116, 116, 116);
+}
+
+.main-content920 #main #content1 .panel .panel-footer a:hover {
+  color: #ff7361;
+}
+
+#main #content1 .pagination-surat {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----- end section panel ------- */
+
+/* -------- section aside ------- */
+.main-content920 .sidebar97239 > h2 {
+  margin-bottom: -20px;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 h4 {
+  font-family: var(--Josefin);
+  color: rgb(252, 141, 66);
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 h5 {
+  font-family: var(--Lexend);
+  font-weight: bold;
+  color: rgb(86, 132, 163) !important;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 h5:hover {
+  color: rgb(66, 78, 252) !important;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 p {
+  font-family: var(--Lexend);
+  margin-top: -5px;
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 p.keterangan {
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 .info a {
+  margin-top: -2px;
+  color: rgb(150, 148, 148);
+}
+
+.main-content920 .sidebar97239 .recent-post3290 .post-details021 .info a:hover {
+  color: rgb(252, 141, 66);
+}
+
+.main-content920 .sidebar97239 .panel-default {
+  margin-top: 20px;
+}
+
+.main-content920 .sidebar97239 .panel-default .panel-footer {
+  background-color: unset;
+  font-family: var(--poppins);
+  font-weight: bold;
+}
+
+.main-content920 .sidebar97239 .panel-default .panel-footer a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+}
+
+.main-content920 .sidebar97239 .panel-default .panel-footer a:hover {
+  color: rgb(252, 141, 66);
+}
+/* ----- end section panel ------- */
+
+/* ------ end Main ---------- */
+
+/* ---------- Footer ---------- */
+section.footer-social {
+  margin-top: 20px;
+  height: 70px;
+}
+
+section.footer-social .copyrights {
+  padding-top: 15px;
+  font-family: var(--Lexend);
+  font-size: 15px;
+}
+
+section.footer-social .copyrights a {
+  text-decoration: none;
+}
+
+section.footer-social .copyrights a.bootstrap {
+  color: rgb(218, 216, 216);
+}
+
+section.footer-social .copyrights a.bootstrap:hover {
+  color: rgb(175, 172, 172);
+}
+
+section.footer-social .copyrights a.bootstrap i.fab.fa-bootstrap {
+  color: rgb(189, 33, 228);
+}
+
+section.footer-social
+  .copyrights
+  a.bootstrap
+  section.footer-social
+  .copyrights
+  a:hover {
+  color: rgb(252, 141, 66);
+}
+/* -------- End Footer ---------- */
+
+/* surat masuk */
+
+#main.surat-masuk {
+  min-width: 320px;
+  padding: 0 20px 0 0;
+  max-width: unset;
+}
+
+section.main-content920 #main .header .kiri {
+  margin-left: 20px;
+}
+
+section.main-content920 #main .header .kanan {
+  margin-top: 14px;
+  /* margin-right: 14px; */
+  display: flex;
+}
+
+section.main-content920 #main .header .kanan button {
+  background-color: rgba(201, 217, 252, 0.438);
+}
+
+section.main-content920 #main .header .kanan button:hover {
+  background-color: rgb(252, 141, 66);
+}
+
+section.main-content920 #main .header .kanan button .fas {
+  padding: 5px 15px;
+  /* margin-left: -px; */
+  /* border: unset; */
+}
+
+/* section.main-content920 #main .header .kanan .input-group {
+  background-color: unset;
+  pt
+} */
+
+/* section.main-content920
+  #main
+  .header
+  .kanan
+  .input-group
+  .input-group-btny
+  .fas {
+  color: black;
+} */
+
+/* --------- informasi kas ---------------- */
+main section.main-content920 {
+  margin-bottom: 100px;
+}
+
+section.main-content920 .header.informasi-kas {
+  margin-bottom: 6px;
+}
+
+section.main-content920 .header.informasi-kas .kanan button {
+  background-color: rgba(201, 217, 252, 0.438);
+}
+
+section.main-content920 .header.informasi-kas .kanan button:hover {
+  background-color: rgb(252, 141, 66);
+}
+
+section.main-content920 .header.informasi-kas .kanan .fas {
+  padding: 0 15px 0 15px;
+}
+
+section.main-content920 .header.informasi-kas .kanan {
+  display: flex !important;
+  padding-top: 15px;
+  /* flex-direction: row; */
+}
+
+section.main-content920 .panel .panel-heading {
+  font-family: var(--Livvic);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+section.main-content920 .panel .panel-body {
+  display: flex;
+  flex-direction: column;
+}
+
+section.main-content920 .panel .panel-body .post-details {
+  width: 100%;
+  margin-top: 0;
+  border: 1px solid rgb(179, 177, 177);
+  margin-bottom: 20px;
+}
+
+section.main-content920
+  .panel
+  .panel-body
+  .post-details
+  .details-header923
+  .post-title-left129
+  h5 {
+  font-size: 13px;
+  font-family: var(--Livvic);
+  color: #aaa;
+  margin-bottom: -20px;
+}
+
+section.main-content920
+  .panel
+  .panel-body
+  .post-details
+  .post-details-info1982 {
+  font-size: 15px;
+  font-family: var(--Lexend);
+  margin-bottom: -20px;
+  font-weight: 100;
+  color: rgb(114, 108, 108);
+  /* margin-bottom: -20px; */
+}
+
+section.main-content920
+  .panel
+  .panel-body
+  .post-details
+  .post-details-info1982
+  p {
+  margin-bottom: 0px;
+}
+section.main-content920
+  .panel
+  .panel-body
+  .post-details
+  .post-details-info1982
+  p.keterangan {
+  margin-bottom: 20px;
+}
+
+main section.main-content920 .pagination-surat {
+  display: flex;
+  justify-content: center;
+}
+
+/* section.footer-social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+/* -------- end informasi kas ------------ */
