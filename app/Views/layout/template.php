@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title; ?></title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- sweetalert -->
-    <link rel="stylesheet" href="sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="/sweetalert/sweetalert2.min.css">
 
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <!-- font -->
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="/css/fonts.css">
 
     <!-- custom css -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 
 </head>
 
@@ -46,15 +46,15 @@
         </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/npm.js"></script>
 
     <!-- sweetalert -->
-    <script src="sweetalert/sweetalert2.all.min.js"></script>
+    <script src="/sweetalert/sweetalert2.all.min.js"></script>
 
     <!-- custom js -->
-    <script src="js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 </body>
 
 </html>

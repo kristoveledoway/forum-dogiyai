@@ -43,7 +43,7 @@
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <div class="left-user12923 left-user12923-repeat">
-                                                    <img src="image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                                                    <img src="/image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
                                             </div>
                                             <div class="col-md-11">
                                                 <div class="right-description893">
@@ -76,7 +76,7 @@
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <div class="left-user12923 left-user12923-repeat">
-                                                    <img src="image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                                                    <img src="/image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
                                             </div>
                                             <div class="col-md-11">
                                                 <div class="right-description893">
@@ -109,7 +109,7 @@
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <div class="left-user12923 left-user12923-repeat">
-                                                    <img src="image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                                                    <img src="/image/images.png" alt="image"> <i class="fa fa-check" aria-hidden="true"></i> </div>
                                             </div>
                                             <div class="col-md-11">
                                                 <div class="right-description893">

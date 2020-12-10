@@ -37,8 +37,11 @@ class User extends BaseController
 
 	public function detail($id)
 	{
-		$data['title'] = "Surat Masuk";
-		// $data['surat_masuk'] = $this->SuratMasuk_model->getSuratMasuk($id);
+		//$surat_masuk = $this->SuratMasuk_model->getSuratMasuk($id);
+		$data = [
+			//'surat' => $surat_masuk,
+			'title' => "Surat MAsuk"
+		];
 		return view('user/surat_masuk_single', $data);
 	}
 
